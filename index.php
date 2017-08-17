@@ -237,42 +237,36 @@ and open the template in the editor.
             
            
             <section>
-            	<div class=intro">
+            	<div class="intro">
             		<h1>VIP Pricing on all Vehicle Protection Plans</h1>
             		<div class="box">
             			<p class="text">
                 {FirstName}, if you are a current {DealerName} VIP Member you are entitled to receive 
-				{25%} off a Vehicle Protection Plan. If you are currently not a VIP Member simply sign up
-				below to receive this discount as well as other valuable perks.
+				{25%} off a Vehicle Protection Plan. If you are currently not a VIP Member                                      simply sign up below to receive this discount as well as other valuable perks.
              			</p>
-            			<div class="videowrapper">
-            				<iframe src="https://www.youtube.com/embed/2lNyfd0VCkc?rel=0&loop=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-						</div>
-					</div>
+                                <div class="formbox">
+            			<p class="line">Please submit your cell phone number below and press submit to join our VIP Club!</p>
+            				<input type="number" name="phone" class="form-control">
+            			<p class="line">Would you like to receive information for a Vehicle Protection Plan for your {year} {make} {model}?</p>
+            				<input type="radio" name="gender" value="yes"><label>Yes</label>
+            				<input type="radio" name="gender" value="no"><label>No</label>
+            				<input type="submit" value="Submit">
+            			</div>
+            			
+			</div>
+                </div>
             	</div>
-            </section>
+            
             
             <main class="main">
             	<div class="skew">
             		<div class="main-inner">
-            			<div class="formbox">
-            			<p class="form">Please submit your cell phone number below and press submit to join our VIP Club!</p>
-            				<input type="number" name="phone" class="form-control">
-            			<p class="form">Would you like to receive information for a Vehicle Protection Plan for your {year} {make} {model}?</p>
-            				<input type="radio" name="gender" value="yes"><label>Yes</label>
-            				<input type="radio" name="gender" value="no"><label>No</label>
-            				
-            			<form action="r" method="post" acccept-charset="utf-8" class="form" role="form">
-            				<input type="submit" value="Submit">
-            				
-            				
-            			</form>
-            			</div>
-            		</div>            				
-             	</div>
+                            <div class="videowrapper">
+            				<iframe src="https://www.youtube.com/embed/2lNyfd0VCkc?rel=0&loop=1&                                            amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            			
+                            </div>            				
+                        </div>
+                </div>
             </main>
-            	
-            	
-        </div>
     </body>
 </html>
